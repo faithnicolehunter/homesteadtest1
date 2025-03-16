@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter's Homestead</title>
+    
+    <!-- Google Font: Homemade Apple -->
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+-->
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hunter's Homestead</h1>
+            <hr>
+            <h2> There's something for everyone! </h2>
+            <hr> 
+
+            <p>
+        <!--
+                  <p>
+                        <strong>Mon:</strong> 9am - 5pm <br>
+                        <strong>Tues:</strong> Closed <br>
+                        <strong>Wed:</strong> 9am - 5pm <br>
+                        <strong>Thurs:</strong> Closed <br>
+                        <strong>Fri:</strong> 1pm - 8pm <br>
+                        <strong>Sat:</strong> 9am - 8pm <br>
+                        <strong>Sun:</strong> 9am - 5pm
+                    </p>
+        -->
+            </p>
+        </div>
+
+        <div class="black-box">
+            <!-- Add content inside if needed -->
+        </div>
+        <div class="stamp-box">      
+            <a href="https://yourlink.com" target="_blank" class="stamp">
+                <img src="webroot/cafestamp.png" alt="Cafe">
+                <span class="stamp-text">Cafe</span>
+            </a>
+            <a href="https://yourlink.com" target="_blank" class="stamp">
+                <img src="webroot/farmstamp.png" alt="Farm & Playpark">
+                <span class="stamp-text">Farm & Playpark</span>
+            </a>
+            <a href="https://yourlink.com" target="_blank" class="stamp">
+                <img src="webroot/pettingzoostamp.png" alt="Petting Zoo">
+                <span class="stamp-text">Petting Zoo</span>
+            </a>
+            <a href="https://yourlink.com" target="_blank" class="stamp">
+                <img src="webroot/shopstamp.png" alt="Shop">
+                <span class="stamp-text">Shop</span>
+            </a>
+
+    </div>
+
+    </header>
+
+    <div class="content-wrapper">
+        <section class="opening-times">
+            <div class="container">
+                <div class="content">
+                    <h2>Opening Times</h2>
+                    <p>We’re open five days from March through October 2025.</p>
+        
+                    <h3>Barn, Shop & Cafe Opening Times</h3>
+                    <p><strong>Mon: </strong> 9am - 5pm</p>
+                    <p><strong>Tues: </strong> CLOSED</p>
+                    <p><strong>Wed: </strong> 9am - 5pm</p>
+                    <p><strong>Thurs: </strong> CLOSED</p>
+                    <p><strong>Fri: </strong> 1pm - 8pm</p>
+                    <p><strong>Sat: </strong> 9am - 8pm</p>
+                    <p><strong>Sun: </strong> 9am - 5pm</p>
+        
+                    <h3>Petting Zoo Opening Times</h3>
+                    <p><strong>Mon: </strong> 10am - 4pm</p>
+                    <p><strong>Tues: </strong> CLOSED</p>
+                    <p><strong>Wed: </strong> 10am - 4pm</p>
+                    <p><strong>Thurs: </strong> CLOSED</p>
+                    <p><strong>Fri: </strong> 2pm - 7pm<br>Autism-friendly sessions between 3pm-5pm**</p>
+                    <p><strong>Sat: </strong> 10am - 7pm<br>Autism-friendly sessions between 3pm-5pm**</p>
+                    <p><strong>Sun: </strong> 10am - 4pm</p>
+                    <hr>
+                    <p>**Autism-friendly sessions are quieter and have a sensory-friendly environment.</p>
+                    <p>Please note that during peak times, tickets booked in advance have priority over same-day tickets. Please book online early to avoid disappointment.</p>
+                </div>
+            </div>
+        </section>
+        
+        <iframe 
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144951.1346040044!2d-3.5081577301025106!3d55.412767781743405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487d5f23b2d0a909%3A0x9baf14b16b162da5!2sCossarshill%20Farm!5e0!3m2!1sen!2sus!4v1742094819276!5m2!1sen!2sus"
+        width="300" 
+        height="200" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+        </iframe>
+    </div>
+
+    <style>
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .map {
+            order: -1;
+            margin-right: 20px;
+        }
+
+        .opening-times {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .map {
+            flex-shrink: 0;
+        }
+    </style>
